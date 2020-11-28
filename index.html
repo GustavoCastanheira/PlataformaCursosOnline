@@ -1,0 +1,225 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="css/style.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow&family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<section id="header">
+		<div class="container">
+		<img src="images/logo.png" class="logo">
+		<div class="header-text">
+			<h1>Compre e venda produtos digitais<br>instantaneamente!</h1>
+			<span class="square"></span>
+			<p>A plataforma Furious esta entre as maiores do mercado. Trata-se de uma das mais completas plataformas e compra e venda de produtos digitais. Cursos e produtos dos mais variados temas e tamanhos.</p>
+			<button onclick="window.location.href='login/loginreal.php';" class="common-btn">Entre</button>
+			<button class="common-btn">Cadastre-se</button>
+			<div class="line">
+				<span class="line-1"></span><br>
+				<span class="line-2"></span><br>
+				<span class="line-3"></span>
+			</div>
+		</div>	
+		</div>
+	</section>
+	<nav id="sideNav">
+		<ul>
+			<li><a href="#header">Início</a></li>
+			<li><a href="#about">Sobre</a></li>
+			<li><a href="#features">features</a></li>
+			<li><a href="#courses">cursos</a></li>
+			<li><a href="#offer">offer</a></li>
+			<li><a href="#contact">Contato</a></li>
+		</ul>
+	</nav>
+	<img src="images/menu.png" id="menuBtn">
+	
+<section id="about">
+	<div class="about-left-col">
+		<img src="images/computer.svg">
+	</div>
+	<div class="about-right-col">
+		<div class="about-text">
+			<h1>Sobre nós</h1>
+			<span class="square"></span>
+			<p>Somos uma empresa dedicada em prestar o melhor serviço possível aos nossos clientes, tentando ao máximo transbordar o conhecimento à âmbito mundial. Nosso objetivo principal é satisfazer a necessidade dos clientes no menor tempo possível. E para isso, a empresa está sempre atualizada com novos equipamentos e estruturas. </p><br><br>
+			<div class="line">
+				<span class="line-1"></span><br>
+				<span class="line-2"></span><br>
+				<span class="line-3"></span>
+			</div>
+			<h2>"Nos tempos atuais, o conhecimento é a fonte mais segura de rendimentos, nada e ninguém pode tirá-lo de você"</h2>
+			<h3>Gustavo Castanheira</h3>
+		</div>
+	</div>
+</section>
+<section id="features">
+	<div class="feature-row">
+		<div class="feature-col">
+			<img src="images/pic-1.png">
+			<h4>Criatividade</h4>
+			<p>Desenvolva seu senso de criatividade com nossos melhores treinamentos</p>
+		</div>
+		<div class="feature-col">
+			<img src="images/pic-2.png">
+			<h4>Desenvolvimento Pessoal</h4>
+			<p>Seja o melhor, foque no seu conhecimento!</p>
+		</div>
+		<div class="feature-col">
+			<img src="images/pic-3.png">
+			<h4>Turbine seus ganhos</h4>
+			<p>Faça da Furious a seu plataforma de investimentos para ganhar dinheiro</p>
+		</div>
+		</div>
+		<div class="feature-btn">
+			<div class="line">
+				<span class="line-1"></span><br>
+				<span class="line-2"></span><br>
+				<span class="line-3"></span>
+			</div>
+			<button class="common-btn">Comece agora</button>
+		</div>
+</section>
+<section id="courses">
+	<div class="container course-row">
+		<div class="course-left-col">
+			<div class="course-text">
+				<h1>Navegue pelos nossos cursos<br> Não perca tempo!</h1>
+				<span class="square"></span>
+				<p>A loja de cursos detém do mais apurado conhecimento para te preparar para o mercado de trabalho</p>
+				<button class="common-btn">Veja todos</button>
+			<div class="line">
+				<span class="line-1"></span><br>
+				<span class="line-2"></span><br>
+				<span class="line-3"></span>
+			</div>
+			</div>
+		</div>
+		<div class="course-right-col">
+			<img class="right-col-image" src="images/course.png">
+		</div>
+	</div>
+</section>
+<section id="offer">
+	<div class="about-left-col">
+		<img class="about-background" src="images/about-background.svg">
+	</div>
+	<div class="about-right-col">
+		<div class="about-text">
+			<h1>Sem Limites<br> Sem percas</h1>
+			<span class="square"></span>
+			<p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+			<button class="common-btn">Veja todos</button>
+			<div class="line">
+				<span class="line-1"></span><br>
+				<span class="line-2"></span><br>
+				<span class="line-3"></span>
+			</div>
+		</div>
+	</div>
+</section>
+<section id="contact">
+	<div class="container contact-row">
+		<div class="contact-left-col">
+			<h1>Assine Agora<br>E comece a aprender</h1>
+			<form method="post" action="connect.php">
+				<input autocomplete="off" type="text" name="name" placeholder="Digite seu nome" required>
+				<input autocomplete="off" type="email" name="email" placeholder="Digite seu email" required>
+				<input autocomplete="off" type="text" name="coment" placeholder="Digite Seu comentário" required>
+				<div class="btn-box">
+					<button name="submit" class="common-btn">Teste</button>
+				
+				</div>
+			</form>
+
+			<div class="line">
+				<span class="line-1"></span><br>
+				<span class="line-2"></span><br>
+				<span class="line-3"></span>
+			</div>
+		</div>
+		<div class="contact-right-col">
+			<img src="images/contact.png">
+		</div>
+	</div>
+</section>
+<section id="footer">
+	<div class="container footer-row">
+		<hr>
+		<div class="footer-left-col">
+			<div class="footer-links">
+				<div class="link-title">
+					<h4>Produtos</h4>
+					<small>Nosso Plano</small><br>
+					<small>Nosso </small>
+				</div>
+				<div class="link-title">
+					<h4>Produtos</h4>
+					<small>Nosso Plano</small><br>
+					<small>Nosso </small>
+				</div>
+				<div class="link-title">
+					<h4>Produtos</h4>
+					<small>Nosso Plano</small><br>
+					<small>Nosso </small>
+				</div>
+				<div class="link-title">
+					<h4>Produtos</h4>
+					<small>Nosso Plano</small><br>
+					<small>Nosso </small>
+				</div>
+			</div>
+		</div>
+		<div class="footer-right-col">
+			<div class="footer-info">
+				<div class="copyright-text">
+					<small>suporte.com.br</small><br>
+					<small>copyright 2020</small>
+				</div>
+				<div class="footer-logo">
+					<img src="images/logo.png">
+					<button class="common-btn">English
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="social-icons">
+	<img src="images/facebook.png">
+	<img src="images/instagram.png">
+	<img src="images/twitter.png">
+	<img src="images/linkedin.png">
+</div>
+
+
+
+
+	<script>
+		var menuBtn = document.getElementById("menuBtn");
+		var sideNav = document.getElementById("sideNav");
+		sideNav.style.right = "-250px";
+		menuBtn.onclick = function(){
+			if (sideNav.style.right == "-250px"){
+				sideNav.style.right = "0";
+			}
+			else{
+				sideNav.style.right = "-250px";
+			}
+
+		}
+	</script>
+<script src="smooth/smooth-scroll.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
+</body>
+</html>

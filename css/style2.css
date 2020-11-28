@@ -1,0 +1,43 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.background123{
+	background: url('../images/background-profile.svg');
+	background-position: center;
+	background-size: 100% auto;
+	height: 270px;
+}
+.picture-profile{
+	width: 100%;
+	text-align: center;
+	position: relative;
+	top: 150px;
+}
+.profile-image{
+		width: 200px;
+}
+.row{
+	width: 90%;
+
+}
+.col-md-6{
+	margin-top: 100px;
+	background: red;
+	text-align: center;
+	
+}
+
+
+
+@media only screen and (max-width: 760px) {
+	.background123{
+	height: 240px;
+}
+	.profile-image{
+		width: 150px;
+}
+
+
+}
